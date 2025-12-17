@@ -116,12 +116,4 @@ Each register stores both **data signals** and **control signals** required for 
 - **Design Style:** Structural & Modular  
 - **Target Use:** Computer Architecture courses and academic projects
 
----
-
-## 📝 Notes
-- This design follows the **classic MIPS pipeline model**
-- Intended for **learning and experimentation**
-- Easily extendable to support more instructions or advanced features
-
----
 
