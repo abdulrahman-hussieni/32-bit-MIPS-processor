@@ -81,7 +81,5 @@ This design is best suited for **learning CPU basics** before moving to pipeline
 - Based on the classic MIPS architecture
 - Easily extendable for additional instructions or features
 
----
 
-⭐ If you find this project useful, consider giving it a **star** on GitHub!
 
