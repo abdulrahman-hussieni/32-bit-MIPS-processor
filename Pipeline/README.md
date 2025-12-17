@@ -1,10 +1,7 @@
 # 🖥️ 5-Stage Pipelined MIPS Processor (VHDL)
 
 ## 📌 Overview
-This folder contains an implementation of a **5-stage pipelined MIPS processor** designed using **VHDL**.  
-The design follows the **classic MIPS pipeline architecture**, demonstrating how instruction-level parallelism improves processor performance compared to single-cycle designs.
-
-This implementation is intended for **educational and academic purposes**, focusing on pipeline behavior, hazards, and control logic.
+implementation of a **5-stage pipelined MIPS processor** designed using **VHDL**.  
 
 ---
 
@@ -65,55 +62,4 @@ Each register stores both **data signals** and **control signals** required for 
 ### 🔹 Control Hazards
 - Handled using branch logic
 - Incorrectly fetched instructions are flushed when required
-
----
-
-## 🧩 Supported Instructions
-
-### R-Type Instructions
-- `add`, `sub`
-- `and`, `or`, `xor`, `nor`
-- `slt`
-- `sll`, `srl`, `sra`
-- `jr`
-
-### I-Type Instructions
-- `addi`, `andi`, `ori`, `xori`
-- `lw`, `sw`
-- `beq`, `bne`
-- `slti`
-- `lui`
-
-### J-Type Instructions
-- `j`
-- `jal`
-
----
-
-## 🏗️ Core Components
-- **Program Counter (PC)**
-- **Instruction Memory**
-- **Register File (32 registers)**
-- **ALU**
-- **Data Memory**
-- **Main Control Unit**
-- **Forwarding Unit**
-- **Hazard Detection Unit**
-- **Pipeline Registers**
-
----
-
-## 🎯 Design Goals
-- Demonstrate instruction-level parallelism
-- Compare pipelined vs single-cycle performance
-- Understand pipeline hazards and their solutions
-- Practice modular CPU design using **VHDL**
-
----
-
-## 🛠️ Technology Used
-- **Hardware Description Language:** VHDL  
-- **Design Style:** Structural & Modular  
-- **Target Use:** Computer Architecture courses and academic projects
-
 
